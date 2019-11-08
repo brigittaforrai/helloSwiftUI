@@ -7,12 +7,23 @@
 //
 
 import SwiftUI
+import Combine
+
 
 struct ContentView: View {
+    @EnvironmentObject var state: State
+    
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+            if self.state.page == "home" {
+                Home()
+            } else if self.state.page == "game" {
+                Game()
+            }
+        }
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
