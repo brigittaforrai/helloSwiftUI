@@ -10,6 +10,8 @@ struct Game: View {
                 Text(String(self.state.gameId))
             }
             
+            Grid()
+            
             Spacer()
             
             Button(action: {
@@ -19,5 +21,11 @@ struct Game: View {
                 Text("Back")
             }
         }
+    }
+}
+
+struct Game_Previews: PreviewProvider {
+    static var previews: some View {
+        Game()
     }
 }

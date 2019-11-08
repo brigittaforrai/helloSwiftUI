@@ -20,6 +20,7 @@
 		7AB663882375C01D00E82A5F /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB663872375C01D00E82A5F /* Header.swift */; };
 		7AB6638A2375C03E00E82A5F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB663892375C03E00E82A5F /* Home.swift */; };
 		7AB6638C2375CAED00E82A5F /* state.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB6638B2375CAED00E82A5F /* state.swift */; };
+		7AB6638E2375D16900E82A5F /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB6638D2375D16900E82A5F /* Grid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		7AB663872375C01D00E82A5F /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		7AB663892375C03E00E82A5F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		7AB6638B2375CAED00E82A5F /* state.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = state.swift; sourceTree = "<group>"; };
+		7AB6638D2375D16900E82A5F /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				7AB6637B23743F6800E82A5F /* Info.plist */,
 				7AB6636E23743F6600E82A5F /* swiftui1.xcdatamodeld */,
 				7AB6637523743F6800E82A5F /* Preview Content */,
+				7AB6638D2375D16900E82A5F /* Grid.swift */,
 			);
 			path = swiftui1;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				7AB6636B23743F6600E82A5F /* AppDelegate.swift in Sources */,
 				7AB6637023743F6600E82A5F /* swiftui1.xcdatamodeld in Sources */,
 				7AB6637223743F6600E82A5F /* ContentView.swift in Sources */,
+				7AB6638E2375D16900E82A5F /* Grid.swift in Sources */,
 				7AB6638A2375C03E00E82A5F /* Home.swift in Sources */,
 				7AB6636D23743F6600E82A5F /* SceneDelegate.swift in Sources */,
 				7AB6638423745F9C00E82A5F /* Bg.swift in Sources */,
